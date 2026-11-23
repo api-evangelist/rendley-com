@@ -1,4 +1,4 @@
-# rendley-com
+# Rendley
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rendley-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rendley.com/
+Rendley is a video automation platform that lets users create, edit, and automate videos using AI. Users can upload footage, describe desired edits, and the AI agent cuts, captions, and renders the final video. The platform offers Studio for manual editing, MCP for AI-driven workflows via Claude or ChatGPT, and a REST API for programmatic access. It supports various tools like cuts, trims, transitions, color correction, and AI-generated media, with integration options for n8n, Make, Zapier, and SDKs.
+
+**Areas:** Company · VideoAutomation · AI · API · Platform
+
+## Rendley on APIs.io
+
+Everything profiled for Rendley is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rendley-com/](https://apis.io/providers/rendley-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Rendley AI API](https://apis.io/apis/rendley-com/rendley-com-ai-api/) — The AI API from Rendley — 40 operation(s) for ai.
+- [Rendley Brand Kit API](https://apis.io/apis/rendley-com/rendley-com-brand-kit-api/) — The Brand Kit API from Rendley — 3 operation(s) for brand kit.
+- [Rendley Exports API](https://apis.io/apis/rendley-com/rendley-com-exports-api/) — The Exports API from Rendley — 4 operation(s) for exports.
+- [Rendley Jobs API](https://apis.io/apis/rendley-com/rendley-com-jobs-api/) — The Jobs API from Rendley — 2 operation(s) for jobs.
+- [Rendley Library API](https://apis.io/apis/rendley-com/rendley-com-library-api/) — The Library API from Rendley — 15 operation(s) for library.
+- [Rendley Projects API](https://apis.io/apis/rendley-com/rendley-com-projects-api/) — The Projects API from Rendley — 8 operation(s) for projects.
+- [Rendley Social API](https://apis.io/apis/rendley-com/rendley-com-social-api/) — The Social API from Rendley — 3 operation(s) for social.
+- [Rendley Templates API](https://apis.io/apis/rendley-com/rendley-com-templates-api/) — The Templates API from Rendley — 4 operation(s) for templates.
+- [Rendley Uploads API](https://apis.io/apis/rendley-com/rendley-com-uploads-api/) — The Uploads API from Rendley — 11 operation(s) for uploads.
+- [Rendley Users API](https://apis.io/apis/rendley-com/rendley-com-users-api/) — The Users API from Rendley — 1 operation(s) for users.
+- [Rendley Workspaces API](https://apis.io/apis/rendley-com/rendley-com-workspaces-api/) — The Workspaces API from Rendley — 2 operation(s) for workspaces.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Rendley Agentic Access](https://apis.io/agentic-access/rendley-com/rendley-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [project.UpdateProjectDTO](https://apis.io/schemas/rendley-com/rendley-com-project-update-project-dto/)
+- [social.CreatePostDTO](https://apis.io/schemas/rendley-com/rendley-com-social-create-post-dto/)
+- [types.LibraryUpload](https://apis.io/schemas/rendley-com/rendley-com-types-library-upload/)
+- [types.MultipartInitInput](https://apis.io/schemas/rendley-com/rendley-com-types-multipart-init-input/)
+- [types.Project](https://apis.io/schemas/rendley-com/rendley-com-types-project/)
+- [types.UploadInput](https://apis.io/schemas/rendley-com/rendley-com-types-upload-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rendley Com Context](https://apis.io/jsonld/rendley-com/rendley-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rendley API Rules](https://apis.io/rules/rendley-com/rendley-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rendley Authentication](https://apis.io/security/rendley-com/rendley-com-authentication/)
+- [Rendley Domain Security](https://apis.io/security/rendley-com/rendley-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rendley Plans Pricing](https://apis.io/plans/rendley-com/rendley-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rendley.com/)
+- [Documentation](https://docs.rendley.com/)
+- [Getting started](https://docs.rendley.com/api/getting-started)
+- [API reference](https://docs.rendley.com/api/getting-started/?utm_source=rendley.com&utm_medium=landing&utm_campaign=home&utm_content=footer)
+- [Pricing](https://rendley.com/pricing)
+- [Blog](https://rendley.com/blog)
+- [Terms of service](https://rendley.com/terms-and-conditions)
+- [Privacy policy](https://rendley.com/privacy-policy)
+- [GitHub](https://github.com/rendleyhq)
+
+## API Evangelist rating
+
+**Kin Score 61.1** — strong · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 60.0 |
+
+**Agent readiness 50.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rendley-com/](https://apis.io/providers/rendley-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rendley: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rendley-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
